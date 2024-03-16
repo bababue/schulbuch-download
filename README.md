@@ -22,7 +22,8 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 
     python3 main.py
 
-##Benutzung
+## Benutzung
+
 Wähle als ersten Schritt deinen Anbieter aus, gib deine Email, deinen Benutzernamen, deine BookId und die letzt Seite des Buches an, und den Rest sollte das Programm erledigen.
 
 Die BookId ist dabei von Anbieter zu Anbieter unterschiedlich formatiert
