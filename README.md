@@ -12,6 +12,7 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 1.  Das Repository klonen
 
     git clone https://github.com/bababue/schulbuch-downlaod.git
+
     cd ./schulbuch-downlaod
 
 2.  Dependencies installieren
