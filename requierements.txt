@@ -1,0 +1,5 @@
+beautifulsoup4
+lxml
+playwright
+requests
+pillow
