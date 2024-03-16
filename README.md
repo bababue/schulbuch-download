@@ -19,11 +19,15 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 
 2.  Dependencies installieren
 
+    ```
     pip3 install -r requirements.txt
+    ```
 
 3.  Das Programm starten
 
+    ```
     python3 main.py
+    ```
 
 ## Benutzung
 
