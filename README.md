@@ -2,7 +2,7 @@
 
 Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgewandelt werden
 
-## Unterstützte Seiten
+## Unterstützte Verlage
 
 - Westermann Verlag (BiBox2)
 - Merkur Verlag Rinteln (Merkur Medien)
@@ -31,12 +31,12 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 
 ## Benutzung
 
-Wähle als ersten Schritt deinen Anbieter aus, gib deine Email, deinen Benutzernamen, deine BookId und die letzt Seite des Buches an, und den Rest sollte das Programm erledigen.
+Wähle zuerst den gewünschten Verlag aus. Gib anschließend deine Email und dein Passwort ein, danach die [BookID](#bookid) und zuletzt die letzte Seitenzahl des Buches.
 
-Die BookId ist dabei von Anbieter zu Anbieter unterschiedlich formatiert
+## BookID
 
-Westermann: https://bibox2.westermann.de/book/374/page/1 >> BookId ist 374
-
-Merkur Medien: Als erstes Rechtsklick auf Buchseite, in neuem Tab öffnen
-
-https://www.merkur-medien.de/dlm/zippo/936/3847/preview/big/280.jpg >> BookId ist 936/3847
+| Verlag        | Beispiel-Url                                                        | entsprechende BookId | Notizen                                                                                   |
+| ------------- | ------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------- |
+| Westermann    | https://bibox2.westermann.de/book/374/page/1                        | 374                  |                                                                                           |
+| Merkur Medien | https://www.merkur-medien.de/dlm/zippo/936/3847/preview/big/280.jpg | 936/3847             | Um an die URL zu kommen, erst Rechtsklick auf ein Bild und dies in einem neuen tab öffnen |
+|               |                                                                     |                      |                                                                                           |
