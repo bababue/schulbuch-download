@@ -13,7 +13,7 @@ def download(email, password, bookid, maxpages):
     #Start Playwright browser
     with sync_playwright() as p:
         #Login
-        browser = p.chromium.launch(headless=False, slow_mo=50)
+        browser = p.chromium.launch(headless=True, slow_mo=50)
         print("Playwright started...")
         page = browser.new_page()
         print("Attempting login...")
