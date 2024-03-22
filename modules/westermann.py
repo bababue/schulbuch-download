@@ -27,9 +27,8 @@ def download(email, password, bookid, maxpages):
 
         print("Starting download...")
 
-        #Main downloading loop
-        currentpage = 1
-        while (currentpage <= maxpages):
+
+        for currentpage in range(1, maxpages + 1, 2):
 
             page.goto(f'https://bibox2.westermann.de/book/{bookid}/page/{currentpage}')
             page.wait_for_selector(".pageview")
@@ -49,13 +48,12 @@ def download(email, password, bookid, maxpages):
                         file.write(response.content)
                 else:
                     print("Error while downlaoding image")
+            print(f"Successfully downloaded page {currentpage}/{maxpages}")
+            print(f"Successfully downloaded page {currentpage + 1}/{maxpages}")
 
-            if currentpage == 1:
-                currentpage = currentpage + 1
-            else:
-                currentpage = currentpage + 2
         browser.close()
         print("Download successful!")
+
 
 def merge():
 

@@ -23,22 +23,19 @@ def download(email, password, bookid, maxpages):
     
     print("Starting download...")
     
-    currentpage = 1
-    while (currentpage <= maxpages):
+    for currentpage in range(1, maxpages + 1):
         url= f"https://www.merkur-medien.de/dlm/zippo/{bookid}/preview/big/{currentpage}.jpg"
         filename = os.path.basename(url)
         response = requests.get(url , cookies=session)
         filelist.append(filename)
     
-    
         if response.status_code == 200:
             with open(f"output/{filename}", 'wb') as file:
                 file.write(response.content)
+                print(f"Successfully downloaded page {currentpage}/{maxpages}")
         else:
             print("Error while downlaoding image")
             exit()
-    
-        currentpage = currentpage + 1
     
 
     print("Downlaod successful!")
