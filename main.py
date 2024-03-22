@@ -6,13 +6,12 @@ if not os.path.exists("output"):
 
 
 if __name__ == "__main__":
-    print("Please choose your provider:\n")
 
     print("[1]: Westermann Verlag (BiBox2)") #westermann
     print("[2]: Merkur Verlag Rinteln (Merkur Medien)") #merkur
     print()
     
-    providernumber = input("Your choice (Please enter number 1-2): ")
+    providernumber = input("Please choose desired provider: (Enter number 1-2): ")
     
     def askcredentials():
         global email
