@@ -7,6 +7,14 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 - Westermann Verlag (BiBox2)
 - Merkur Verlag Rinteln (Merkur Medien)
 
+## Installation in Collab (am einfachsten)
+
+Klicke den Button und folge den Anweisungen im Dokument.
+
+<a target="_blank" href="https://colab.research.google.com/github/bababue/schulbuch-downlaod/blob/main/collab.ipynb">
+<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## Installation
 
 1.  Das Repository klonen
