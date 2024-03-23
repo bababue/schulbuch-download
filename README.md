@@ -9,7 +9,7 @@ Mit diesem Programm können digitale Schulbücher diverser Verlage in PDFs umgew
 
 ## Installation in Collab (am einfachsten)
 
-Klicke den Button und folge den Anweisungen im Dokument.
+Klicke den Button und folge den Anweisungen im Dokument
 
 <a target="_blank" href="https://colab.research.google.com/github/bababue/schulbuch-downlaod/blob/main/collab.ipynb">
 <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
