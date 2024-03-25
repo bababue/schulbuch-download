@@ -1,7 +1,7 @@
 final.pdf
 output/
 test.py
-
+.idea/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
